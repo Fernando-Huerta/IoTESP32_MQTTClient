@@ -8,10 +8,11 @@
 
 #include "SimplexNoise.h"
 
-const char* ssid = "Totalplay-F5A3";
-const char* password = "F5A335D8XA44MdKP";
+const char* ssid = "iPhone de Fernando JR. 2do";
+const char* password = "12345678";
 
-const char* mqtt_server = "192.168.100.27";
+// const char* mqtt_server = "192.168.100.27";
+const char* mqtt_server = "172.20.10.15";
 
 WiFiClient espClient;
 PubSubClient client(espClient);
